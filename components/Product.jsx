@@ -1,6 +1,6 @@
 import React from 'react'
-import {urlFor} from '../LIB/client'
-import Link from 'next/Link'
+import {urlFor} from '../lib/client'
+import Link from 'next/link'
 
 const Product = ({product : {title, Price, slug, image}}) => {
   return (
